@@ -9,6 +9,9 @@ import NewUser from './view/new-user/';
 import Home from './view/home/';
 import RecoveryPassword from './view/recovery-password/';
 import MyFriends from './view/myfriends/';
+import Chat from './view/chat/';
+import Search from './view/search/';
+import University from './view/university/';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route exact path='/home' component={Home}/>
         <Route exact path='/recoveryPassword' component={RecoveryPassword}/>
         <Route exact path='/myfriends' component={MyFriends}/>
+        <Route exact path='/chat' component={Chat}/>
+        <Route exact path='/search' component={Search}/>
+        <Route exact path='/university' component={University}/>
       </Router>
     </Provider>
   );

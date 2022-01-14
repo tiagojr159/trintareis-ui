@@ -21,23 +21,31 @@ function Header() {
                     <div className="logo-fb">
                         <FaEarlybirds />
                     </div>
+                    <Link to="/search">
                     <div className="search-fb">
                         <FaSearch />
                     </div>
-                    <div className="home-fb">
-                        <FaHome />
-                    </div>
+                    </Link>
+                    <Link to="/home">
+                        <div className="home-fb">
+                            <FaHome />
+                        </div>
+                    </Link>
                     <Link to="/myfriends">
                         <div className="friend-fb">
                             <FaUserFriends />
                         </div>
                     </Link>
+                    <Link to="/chat">
                     <div className="chat-fb">
                         <FaRocketchat />
                     </div>
+                    </Link>
+                    <Link to="/university">
                     <div className="university-fb">
                         <FaUniversity />
                     </div>
+                    </Link>
                     <div className="notification-fb">
                         <IoIosNotifications />
                     </div>
@@ -55,10 +63,7 @@ function Header() {
                 </div>
             </div>
             {/* <Stories /> */}
-            <FeedForm />
-            <FeedPost nome="Trinta Reis" horario="20:00 h" conteudo="Conheça os benéficios da maior rede social vocacional" />
-            <FeedPost nome="IFPE" horario="10:00 h" conteudo="Incrições para os cursos de pós-graduação estão ABERTAS!!!" />
-            <FeedPost nome="Marcos" horario="13:30 h" conteudo="Galera criando criei um grupo de estudo sobre tecnologias frontend." />
+
         </div>
     )
 }
