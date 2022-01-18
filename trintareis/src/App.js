@@ -12,6 +12,7 @@ import MyFriends from './view/myfriends/';
 import Chat from './view/chat/';
 import Search from './view/search/';
 import University from './view/university/';
+import Perfil from './view/perfil/';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/chat' component={Chat}/>
         <Route exact path='/search' component={Search}/>
         <Route exact path='/university' component={University}/>
+        <Route exact path='/perfil' component={Perfil}/>
       </Router>
     </Provider>
   );

@@ -243,7 +243,8 @@ body{
 .feedPostSingle{
 margin: 20px 100px;
 background-color: white;
-border-radius: 15px;
+border-radius: 34px;
+padding: 10px;
 }
 
 .feedPost__profile{
