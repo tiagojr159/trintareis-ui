@@ -166,7 +166,95 @@ function MyFriends() {
                     </section>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div className="feedPost">
+                <div className="feedPostSingle">
+                    <h3>Meus amigos</h3>
+                    <section class="u-align-center u-clearfix u-grey-10 u-section-2" id="sec-bd5e">
+                        <div class="u-repeater u-repeater-1 tela1400">
+
+                            <div class="box shadow-interpolacao u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3">
+                                <div class="u-container-layout u-similar-container u-container-layout-3">
+                                    <img class=" u-image u-image-circle u-image-3 shadow-interpolacao" src="/static/media/minios.8f62a453.jpg" />
+                                    <h4 class="u-text u-text-default u-text-6">Roberto Carlos</h4>
+                                    <p class="u-text u-text-7">Aluno </p>
+                                    <p class="u-text u-text-7"><b>Tecnico de Edificação</b> </p>
+                                    <a href="" class="botao_vermelho shadow-interpolacao ">Desconectar</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
